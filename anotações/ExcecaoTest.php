@@ -3,7 +3,7 @@
 class ExcecaoTest extends PHPUnit_Framework_TestCase
 {
     /**
-	* 
+    * 
 	* @expectedException InvalidArgumentException
 	* @expectedExceptionMessage Alguma Mensagem
 	*/
