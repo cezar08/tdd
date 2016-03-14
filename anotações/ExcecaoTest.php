@@ -1,7 +1,9 @@
 <?php
+
 class ExcecaoTest extends PHPUnit_Framework_TestCase
 {
-	/**
+    /**
+	* 
 	* @expectedException InvalidArgumentException
 	* @expectedExceptionMessage Alguma Mensagem
 	*/
@@ -9,7 +11,9 @@ class ExcecaoTest extends PHPUnit_Framework_TestCase
 	{
 		throw new InvalidArgumentException('Alguma Mensagem', 20);
 	}
+	
 	/**
+	*	
 	* @expectedException InvalidArgumentException
 	* @expectedExceptionCode 20
 	*/
@@ -17,5 +21,5 @@ class ExcecaoTest extends PHPUnit_Framework_TestCase
 	{
 		throw new InvalidArgumentException('Alguma Mensagem', 20);
 	}
+	
 }
-?>
