@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": { "NumerosRomanos\\": "src", "Tests\\": "tests", "Vendor\\": "vendor"}
+    },
+    "require": {
+        "phpunit/phpunit": "5.0.*"
+    }
+}

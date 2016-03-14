@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": { "CarrinhoDeCompra\\": "src", "Tests\\": "tests", "Vendor\\": "vendor"}
+    },
+    "require": {
+        "phpunit/phpunit": "5.0.*"
+    }
+}

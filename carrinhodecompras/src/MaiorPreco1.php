@@ -1,10 +1,10 @@
 <?php 
-class MaiorPreco1{
+namespace CarrinhoDeCompra;
 
-
-	public function encontra($carrinho){
+class MaiorPreco1
+{
+	public function encontra($carrinho)
+	{
 		return 0;
 	}
-
 }
-?>

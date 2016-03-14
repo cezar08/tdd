@@ -1,28 +1,33 @@
 <?php
+namespace NotaFiscal;
 
-class NotaFiscal{
-
+class NotaFiscal
+{
 	private $cliente;
+
 	private $valor;
+
 	private $data;
 
-	public function setNotaFiscal($cliente, $valor, $data){
+	public function setNotaFiscal($cliente, $valor, $data)
+	{
 		$this->cliente = $cliente;
 		$this->valor = $valor;
 		$this->data = $data;
 	}
 
-
-	public function getCliente(){
+	public function getCliente()
+	{
 		return $this->cliente;
 	}
 
-	public function getValor(){
+	public function getValor()
+	{
 		return $this->valor;
 	}
 
-	public function getData(){
+	public function getData()
+	{
 		return $this->data;
 	}
-
 }

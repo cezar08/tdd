@@ -1,44 +1,54 @@
 <?php 
-class Item{
+namespace CarrinhoDeCompra;
+
+class Item
+{
 
 	private $descricao;
+
 	private $quantidade;
+
 	private $valorUnitario;
 
-	public function __construct($descricao, $quantidade, $valorUnitario){
+	public function __construct($descricao, $quantidade, $valorUnitario)
+	{
 		$this->descricao = $descricao;
 		$this->quantidade = $quantidade;
 		$this->valorUnitario = $valorUnitario;
 	}
 
-	public function setDescricao($descricao){
+	public function setDescricao($descricao)
+	{
 		$this->descricao = $descricao;
 	}
 
-	public function setQuatidade($quantidade){
+	public function setQuatidade($quantidade)
+	{
 		$this->quantidade = $quantidade;
 	}
 
-	public function setValorUnitario($valorUnitario){
+	public function setValorUnitario($valorUnitario)
+	{
 		$this->valorUnitario = $valorUnitario;
 	}
 
-	public function getDescricao(){
+	public function getDescricao()
+	{
 		return $this->descricao;
 	}
 
-	public function getQuantidade(){
+	public function getQuantidade()
+	{
 		return $this->quantidade;
 	}
 
-	public function getValorUnitario(){
+	public function getValorUnitario()
+	{
 		return $this->valorUnitario;
 	}
 
-	public function getValorTotal(){
+	public function getValorTotal()
+	{
 		return $this->valorUnitario * $this->quantidade;
 	}
-
 }
-
-?>

@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": { "ContaBancaria\\": "src", "Tests\\": "test", "Vendor\\": "vendor"}
+    },
+    "require": {
+        "phpunit/phpunit": "5.0.*"
+    }
+}

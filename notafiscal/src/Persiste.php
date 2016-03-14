@@ -1,11 +1,10 @@
 <?php
+namespace NotaFiscal;
 
-class Persiste{
-
-	public function persistir($nf){
+class Persiste
+{
+	public function persistir($nf)
+	{
 		//persiste os dados em uma base de dados
 	}
-
 }
-
-?>

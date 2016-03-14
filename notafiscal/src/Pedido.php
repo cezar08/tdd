@@ -1,32 +1,37 @@
 <?php 
+namespace NotaFiscal;
 
-class Pedido{
-
+class Pedido
+{
 	private $cliente;
+
 	private $valorTotal;
+
 	private $quantidadeItens;
 
-	public function setPedido($cliente, $valorTotal,
-	 $quantidadeItens){
+	public function setPedido(
+		$cliente, 
+		$valorTotal,
+	 	$quantidadeItens
+ 	)
+	{
 		$this->cliente = $cliente;
 		$this->valorTotal = $valorTotal;
 		$this->quantidadeItens = $quantidadeItens;		
 	}
 
-	public function getCliente(){
+	public function getCliente()
+	{
 		return $this->cliente;
 	}
 
-	public function getValorTotal(){
+	public function getValorTotal()
+	{
 		return $this->valorTotal;
 	}
 
-	public function getQuantidadeItens(){
+	public function getQuantidadeItens()
+	{
 		return $this->quantidadeItens;
 	}
-
-
 }
-
-
-?>
